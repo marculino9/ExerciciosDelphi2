@@ -1,0 +1,40 @@
+unit uMain;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, Vcl.ExtCtrls, Vcl.Buttons,
+  System.Actions, Vcl.ActnList, Vcl.ComCtrls, System.ImageList, Vcl.ImgList;
+
+type
+  TTfmMenu = class(TForm)
+    ActionList: TActionList;
+    MainMenu: TMainMenu;
+    ImageList: TImageList;
+    StatusBar1: TStatusBar;
+    actCliente: TAction;
+    SpeedButton1: TSpeedButton;
+    Panel1: TPanel;
+    Cadastro: TMenuItem;
+    Cliente1: TMenuItem;
+    procedure actClienteExecute(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  TfmMenu: TTfmMenu;
+
+implementation
+
+{$R *.dfm}
+
+procedure TTfmMenu.actClienteExecute(Sender: TObject);
+begin
+  ShowMessage('Tela de Cliente');
+end;
+
+end.

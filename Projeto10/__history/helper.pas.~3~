@@ -1,0 +1,14 @@
+unit helper;
+
+interface
+
+uses
+  Vcl.StdCtrls;
+
+type
+ MeuEdit = class helper for TEdit
+ end;
+
+implementation
+
+end.

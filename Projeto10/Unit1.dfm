@@ -1,0 +1,89 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 339
+  ClientWidth = 521
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Button1: TButton
+    Left = 224
+    Top = 24
+    Width = 75
+    Height = 25
+    Caption = 'Button1'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Edit1: TEdit
+    Left = 160
+    Top = 120
+    Width = 121
+    Height = 21
+    TabOrder = 1
+    Text = 'Edit1'
+  end
+  object Button2: TButton
+    Left = 232
+    Top = 176
+    Width = 75
+    Height = 25
+    Caption = 'Button2'
+    TabOrder = 2
+    OnClick = Button2Click
+  end
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'Database=D:\Programas\Delphi\Database.db'
+      'DriverID=SQLite')
+    Connected = True
+    LoginPrompt = False
+    Left = 72
+    Top = 24
+  end
+  object FDQuery1: TFDQuery
+    Connection = FDConnection1
+    SQL.Strings = (
+      'select * from Pessoa')
+    Left = 72
+    Top = 88
+    object FDQuery1cdPessoa: TFDAutoIncField
+      FieldName = 'cdPessoa'
+      Origin = 'cdPessoa'
+      ProviderFlags = [pfInWhere, pfInKey]
+    end
+    object FDQuery1numpessoa: TStringField
+      FieldName = 'numpessoa'
+      Origin = 'numpessoa'
+      Required = True
+      Size = 100
+    end
+    object FDQuery1delogradouro: TStringField
+      FieldName = 'delogradouro'
+      Origin = 'delogradouro'
+      Size = 100
+    end
+    object FDQuery1debairro: TStringField
+      FieldName = 'debairro'
+      Origin = 'debairro'
+      Size = 100
+    end
+    object FDQuery1cdcidade: TIntegerField
+      FieldName = 'cdcidade'
+      Origin = 'cdcidade'
+    end
+  end
+  object FDSQLiteBackup1: TFDSQLiteBackup
+    Catalog = 'MAIN'
+    DestCatalog = 'MAIN'
+    Left = 160
+    Top = 24
+  end
+end

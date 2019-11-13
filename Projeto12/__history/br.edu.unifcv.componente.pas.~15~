@@ -1,0 +1,40 @@
+unit br.edu.unifcv.componente;
+
+interface
+
+uses
+  System.classes;
+
+procedure register;
+
+type
+
+  MeuEvento = procedure(Value: string) of object;
+
+  TEventos = class(TComponent)
+  private
+    FNome: String;
+    FMeuEvento: MeuEvento;
+    procedure SetMeuEvento(const Value: MeuEvento);
+
+  published
+    property Nome: String read FNome write Fnome;
+    property MeuEventoMoroto: MeuEvento read FMeuEvento write SetMeuEvento;
+    public TamanhoString (Value: string) : Integer;
+  end;
+
+implementation
+
+procedure register;
+begin
+  RegisterComponents('Faculdade', [TEventos]);
+end;
+
+{ TEventos }
+
+procedure TEventos.SetMeuEvento(const Value: MeuEvento);
+begin
+  FMeuEvento := Value;
+end;
+
+end.

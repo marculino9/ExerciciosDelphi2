@@ -1,0 +1,54 @@
+unit br.edu.unifcv.factory;
+
+interface
+
+uses
+  br.edu.unifcv.interfaces;
+
+type
+  TFactory = class(TInterfacedObject, IFactory)
+  private
+    FFactory: String;
+
+  public
+    constructor Create;
+    destructor Destroy; override;
+
+    class function New: IFactory;
+    function GetItem: IITem;
+    function GetPessoa: IPessoa;
+  end;
+implementation
+
+uses
+  br.edu.unifcv.model.pessoa;
+
+{ TFactory }
+
+constructor TFactory.Create;
+begin
+
+end;
+
+destructor TFactory.Destroy;
+begin
+
+  inherited;
+end;
+
+function TFactory.GetItem: IITem;
+begin
+  Result := TItem.new;
+end;
+
+function TFactory.GetPessoa: IPessoa;
+begin
+
+end;
+
+class function TFactory.New: IFactory;
+begin
+
+end;
+
+end.

@@ -1,0 +1,14 @@
+program Projeto04;
+
+uses
+  Vcl.Forms,
+  uMain in 'uMain.pas' {TfmMenu};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TTfmMenu, TfmMenu);
+  Application.Run;
+end.

@@ -1,0 +1,27 @@
+unit uBaseCadastro;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, uBase, Vcl.ComCtrls;
+
+type
+  TFrmBaseCadastro = class(TFrmBase)
+    PgDados: TPageControl;
+    TtbPesquisa: TTabSheet;
+    TabSheet2: TTabSheet;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmBaseCadastro: TFrmBaseCadastro;
+
+implementation
+
+{$R *.dfm}
+
+end.

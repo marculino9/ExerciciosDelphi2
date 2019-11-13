@@ -1,0 +1,25 @@
+unit br.edu.unifcv.componente;
+
+interface
+
+uses
+  System.classes;
+
+procedure register;
+
+type
+  TEventos = class(TComponent)
+
+  published
+    property Nome: String read FNome write Fnome;
+
+  end;
+
+implementation
+
+procedure register;
+begin
+  RegisterComponents('Faculdade', [TEventos]);
+end;
+
+end.

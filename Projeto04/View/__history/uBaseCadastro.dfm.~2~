@@ -1,0 +1,32 @@
+inherited FrmBaseCadastro: TFrmBaseCadastro
+  Caption = 'Base Cadastro'
+  ClientHeight = 379
+  ClientWidth = 669
+  ExplicitWidth = 685
+  ExplicitHeight = 418
+  PixelsPerInch = 96
+  TextHeight = 13
+  inherited StatusBar1: TStatusBar
+    Top = 360
+    Width = 669
+    ExplicitLeft = 0
+    ExplicitTop = 51
+    ExplicitWidth = 447
+  end
+  object PgDados: TPageControl
+    Left = 0
+    Top = 0
+    Width = 669
+    Height = 360
+    ActivePage = TabSheet2
+    Align = alClient
+    TabOrder = 1
+    object TtbPesquisa: TTabSheet
+      Caption = 'Pesquisa'
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'TabSheet2'
+      ImageIndex = 1
+    end
+  end
+end

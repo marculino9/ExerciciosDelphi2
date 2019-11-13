@@ -1,0 +1,37 @@
+unit br.edu.unifcv.model.item;
+
+interface
+
+uses
+  br.edu.unifcv.interfaces;
+
+type
+  TItem = class(TInterfacedObject, IITem)
+  private
+    FItem: string;
+
+  public
+//    constructor Create;
+//    destructor Destroy; override;
+
+//    class function New: IITem;
+
+   function GetItem: string;
+   procedure SetItem(const Value: string);
+  end;
+
+implementation
+
+{ TItem }
+
+function TItem.GetItem: string;
+begin
+  Result := FItem;
+end;
+
+procedure TItem.SetItem(const Value: string);
+begin
+  FItem := Value;
+end;
+
+end.

@@ -1,0 +1,23 @@
+unit br.edu.unifcv.factory;
+
+interface
+
+uses
+  br.edu.unifcv.interfaces;
+
+type
+  TFactory = class(TInterfacedObject, IFactory)
+  private
+    FFactory: String;
+
+  public
+    constructor Create;
+    destructor Destroy; override;
+
+    class function New: IFactory;
+    function GetItem: IITem;
+    procedure SetItem(const Value: string);
+  end;
+implementation
+
+end.

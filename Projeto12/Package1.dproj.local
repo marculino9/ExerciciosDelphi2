@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2019/11/05 19:41:34.008,=rtl.dcp</Transaction>
+    <Transaction>2019/11/05 19:43:47.050,=D:\Programas\Delphi\Unit1.pas</Transaction>
+    <Transaction>2019/11/05 19:44:18.806,D:\Programas\Delphi\Projeto12\br.edu.unifcv.componente.pas=D:\Programas\Delphi\Unit1.pas</Transaction>
+    <Transaction>2019/11/05 20:16:44.248,D:\Programas\Delphi\Projeto12\Package1.dproj=D:\Programas\Delphi\Package1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

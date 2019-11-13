@@ -1,0 +1,19 @@
+unit br.edu.unifcv.interfaces;
+
+interface
+
+type
+  IPessoa = interface
+  ['{F0B275D1-6F56-4264-A1D3-509A746C39CD}']
+  function GetNome: String;
+  procedure SetNome(const Value: String);
+  property Nome: String read GetNome write SetNome;
+  end;
+
+  IITem = interface
+    ['{93683A5F-0CC2-454A-8348-27B010478F05}']
+  end;
+
+implementation
+
+end.

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/08/27 19:09:20.000.716,=D:\Programas\Delphi\Unit1.pas</Transaction>
+    <Transaction>2019/08/27 19:11:46.000.818,D:\Programas\Delphi\Projeto04\uMain.pas=D:\Programas\Delphi\Unit1.pas</Transaction>
+    <Transaction>2019/08/27 19:11:46.000.818,D:\Programas\Delphi\Projeto04\uMain.dfm=D:\Programas\Delphi\Unit1.dfm</Transaction>
+    <Transaction>2019/08/27 19:12:22.000.763,D:\Programas\Delphi\Projeto04\Projeto04.dproj=D:\Programas\Delphi\Project1.dproj</Transaction>
+    <Transaction>2019/08/27 19:58:43.000.494,=D:\Programas\Delphi\Projeto04\Unit1.pas</Transaction>
+    <Transaction>2019/08/27 20:00:48.000.042,D:\Programas\Delphi\Projeto04\Unit1.pas=D:\Programas\Delphi\Projeto04\View\uBase.pas</Transaction>
+    <Transaction>2019/08/27 20:00:48.000.042,D:\Programas\Delphi\Projeto04\Unit1.dfm=D:\Programas\Delphi\Projeto04\View\uBase.dfm</Transaction>
+    <Transaction>2019/08/27 20:08:26.000.602,=D:\Programas\Delphi\Projeto04\Unit1.pas</Transaction>
+    <Transaction>2019/08/27 20:08:44.000.436,=D:\Programas\Delphi\Projeto04\Unit1.pas</Transaction>
+    <Transaction>2019/08/27 20:09:39.000.813,D:\Programas\Delphi\Projeto04\Unit1.dfm=D:\Programas\Delphi\Projeto04\View\uBaseCadastro.dfm</Transaction>
+    <Transaction>2019/08/27 20:09:39.000.813,D:\Programas\Delphi\Projeto04\Unit1.pas=D:\Programas\Delphi\Projeto04\View\uBaseCadastro.pas</Transaction>
+  </Transactions>
+</BorlandProject>

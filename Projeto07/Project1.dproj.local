@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2019/10/21 19:14:59.273,=D:\Programas\Delphi\Unit1.pas</Transaction>
+    <Transaction>2019/10/21 19:15:14.155,=D:\Programas\Delphi\Unit2.pas</Transaction>
+    <Transaction>2019/10/21 19:15:41.046,D:\Programas\Delphi\Projeto07\br.edu.unifcv.interfaces.pas=D:\Programas\Delphi\Unit2.pas</Transaction>
+    <Transaction>2019/10/21 19:15:49.748,D:\Programas\Delphi\Projeto07\Unit1.pas=D:\Programas\Delphi\Unit1.pas</Transaction>
+    <Transaction>2019/10/21 19:15:49.748,D:\Programas\Delphi\Projeto07\Unit1.dfm=D:\Programas\Delphi\Unit1.dfm</Transaction>
+    <Transaction>2019/10/21 19:16:02.412,D:\Programas\Delphi\Projeto07\Project1.dproj=D:\Programas\Delphi\Project1.dproj</Transaction>
+    <Transaction>2019/10/21 19:22:35.625,=D:\Programas\Delphi\Projeto07\Unit2.pas</Transaction>
+    <Transaction>2019/10/21 19:23:11.306,D:\Programas\Delphi\Projeto07\br.edu.unifcv.model.pessoa.pas=D:\Programas\Delphi\Projeto07\Unit2.pas</Transaction>
+    <Transaction>2019/10/21 19:30:48.972,=D:\Programas\Delphi\Projeto07\Unit2.pas</Transaction>
+    <Transaction>2019/10/21 19:31:16.365,D:\Programas\Delphi\Projeto07\br.edu.unifcv.model.item.pas=D:\Programas\Delphi\Projeto07\Unit2.pas</Transaction>
+    <Transaction>2019/10/21 19:51:26.406,=D:\Programas\Delphi\Projeto07\Unit2.pas</Transaction>
+    <Transaction>2019/10/21 19:51:42.885,D:\Programas\Delphi\Projeto07\br.edu.unifcv.factory.pas=D:\Programas\Delphi\Projeto07\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>

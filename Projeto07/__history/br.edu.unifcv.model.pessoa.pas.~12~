@@ -1,0 +1,32 @@
+unit br.edu.unifcv.model.pessoa;
+
+interface
+
+uses
+  br.edu.unifcv.interfaces;
+
+type
+  TPessoa = class(TInterfacedObject, IPessoa)
+  private
+    FNome: String;
+
+  public
+    function GetNome: String;
+    procedure SetNome(const Value: string);
+  end;
+
+implementation
+
+{ TPessoa }
+
+function TPessoa.GetNome: string;
+begin
+  Result := FNome;
+end;
+
+procedure TPessoa.SetNome(const Value: string);
+begin
+
+end;
+
+end.

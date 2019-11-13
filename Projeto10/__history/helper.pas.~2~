@@ -1,0 +1,11 @@
+unit helper;
+
+interface
+
+type
+ MeuEdit = class helper for TEdit
+ end;
+
+implementation
+
+end.

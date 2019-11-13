@@ -1,0 +1,15 @@
+program Project1;
+
+uses
+  Vcl.Forms,
+  UPrincipal in 'UPrincipal.pas' {Form1},
+  br.edu.unifcv.interfaces in 'br.edu.unifcv.interfaces.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

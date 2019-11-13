@@ -1,0 +1,26 @@
+unit br.unifcv.model.pessoa;
+
+interface
+
+uses
+  System.Classes;
+
+type
+  TPessoa = class
+    private
+    FSobreNome: String;
+    FNome: String;
+
+    public
+
+      constructor Create;
+      destructor Destroy; override;
+
+      property Nome: String read FNome write FNome;
+      property Sobrenome: String read FSobreNome write FSobrenome;
+      property Gravar;
+  end;
+
+implementation
+
+end.
